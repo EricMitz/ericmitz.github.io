@@ -29,6 +29,7 @@ function processData(allText) {
         }
     }
     console.log(lines[0][0]);
+	console.log(parseInt(lines[0][1]));
 }
 (function($) {
 

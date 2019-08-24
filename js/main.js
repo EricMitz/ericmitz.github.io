@@ -34,7 +34,7 @@ function processData(allText) {
 	console.log(lines[0][1]);
 	
 	 var streams = lines[0][1].substring(10);
-	 console.log(streams;)
+	 console.log(streams);
 
 }
 (function($) {

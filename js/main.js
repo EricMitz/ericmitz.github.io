@@ -6,7 +6,7 @@
 $(document).ready(function() {
     $.ajax({
         type: "GET",
-        url: "timelines.csv",
+        url: "recordings-since2015.csv",
         dataType: "text",
         success: function(data) {processData(data);}
      });

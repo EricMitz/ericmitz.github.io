@@ -28,13 +28,14 @@ function processData(allText) {
             lines.push(tarr);
         }
     }
+	
 	console.log(lines[0]);
     console.log(lines[0][0]);
 	console.log(lines[0][1]);
-	/*
-	var streams = parseInt(lines[0][1]);
-	console.log(streams);
-	*/
+	
+	 var streams = lines[0][1].substring(10);
+	 console.log(streams;)
+
 }
 (function($) {
 

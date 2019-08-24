@@ -29,11 +29,12 @@ function processData(allText) {
         }
     }
 	
-	console.log(lines[0]);
-    console.log(lines[0][0]);
-	console.log(lines[0][1]);
+	 console.log(lines[0]);
+     console.log(lines[0][0]);
+	 console.log(lines[0][1]);
 	
 	 var streams = lines[0][1].substring(10);
+	 streams = parseInt(lines[0][1].substring(10));
 	 console.log(streams);
 
 }

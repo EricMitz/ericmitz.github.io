@@ -30,7 +30,8 @@ function processData(allText) {
     }
 	console.log(lines[0]);
     console.log(lines[0][0]);
-	console.log(parseInt(lines[0][1]));
+	var streams = parseInt(lines[0][1]);
+	console.log(streams);
 }
 (function($) {
 

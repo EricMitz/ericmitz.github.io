@@ -42,7 +42,7 @@ function processData(allText) {
 	 
 	 for (var i=1; i<lines.length; i++)
 	 {
-		 streams += parseInt(lines[0][i].substring(10));
+		 streams += parseInt(lines[0][i]);
 	 }
 	 console.log(streams);
 

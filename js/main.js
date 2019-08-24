@@ -36,6 +36,14 @@ function processData(allText) {
 	 var streams = lines[0][1].substring(10);
 	 streams = parseInt(lines[0][1].substring(10));
 	 console.log(streams);
+	 
+	 streams = 0;
+	 
+	 for (var i=1; i<lines.length; i++)
+	 {
+		 streams += parseInt(lines[0][i].substring(10));
+	 }
+	 console.log(streams);
 
 }
 (function($) {

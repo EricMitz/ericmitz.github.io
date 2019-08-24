@@ -28,7 +28,7 @@ function processData(allText) {
             lines.push(tarr);
         }
     }
-	sonsole.log(lines[0]);
+	console.log(lines[0]);
     console.log(lines[0][0]);
 	console.log(parseInt(lines[0][1]));
 }

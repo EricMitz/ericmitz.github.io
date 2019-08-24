@@ -28,7 +28,7 @@ function processData(allText) {
             lines.push(tarr);
         }
     }
-    console.log(lines[0]);
+    console.log(lines[0][0]);
 }
 (function($) {
 

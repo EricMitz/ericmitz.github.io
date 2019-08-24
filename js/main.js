@@ -40,7 +40,7 @@ function processData(allText) {
 	 
 	 streams = 0;
 	 
-	 for (var i=1; i<lines.length; i++)
+	 for (var i=0; i<lines.length; i++)
 	 {
 		 
 		streams += parseInt(lines[i][1]);

@@ -6,7 +6,7 @@
 $(document).ready(function() {
     $.ajax({
         type: "GET",
-        url: "https://artistinsights-downloads.spotify.com/v1/artist/2nj7bsP3HdV0sVRcERVWw2/downloads/timelines.csv?time-filter=28day",
+        url: "timelines.csv",
         dataType: "text",
         success: function(data) {processData(data);}
      });
@@ -30,7 +30,6 @@ function processData(allText) {
     }
     // alert(lines);
 }
-
 (function($) {
 
 	var	$window = $(window),

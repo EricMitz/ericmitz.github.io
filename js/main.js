@@ -61,7 +61,7 @@ function processData(allText) {
     console.log(streams);
     console.log(saves);
 
-    document.getElementById("Listeners").value = listeners;
+    document.getElementById("Listeners").innerHTML = listeners;
 }
 
 function loadStats()

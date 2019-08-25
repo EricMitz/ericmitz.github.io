@@ -30,7 +30,7 @@ function processData(allText) {
         }
     }
 	
-	 console.log(lines[0]);
+	 /*console.log(lines[0]);
      console.log(lines[0][0]);
 	 console.log(lines[0][1]);
 	
@@ -38,15 +38,29 @@ function processData(allText) {
 	 streams = parseInt(lines[0][1].substring(10));
 	 console.log(streams);
 	 
-	 streams = 0;
-	 
-	 for (var i=0; i<lines.length; i++)
-	 {
-		 
-		streams += parseInt(lines[i][1]);
+     */
+    var streams = 0;
+    var listeners = 0;
+    var saves = 0;
+    
+    for (var i=0; i<lines.length; i++)
+    {
+        listeners += parseInt(lines[i][1]);
 		console.log(streams);
-	 }
-	 console.log(streams);
+    }
+    
+    for (var i=0; i<lines.length; i++)
+    {
+        streams += parseInt(lines[i][2]);
+    }
+    
+    for (var i=0; i<lines.length; i++)
+    {
+        saves += parseInt(lines[i][3]); 
+    }
+    console.log(listeners);
+    console.log(streams);
+    console.log(saves);
 
 }
 (function($) {

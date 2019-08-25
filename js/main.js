@@ -46,7 +46,6 @@ function processData(allText) {
     for (var i=0; i<lines.length; i++)
     {
         listeners += parseInt(lines[i][1]);
-		console.log(streams);
     }
     
     for (var i=0; i<lines.length; i++)
@@ -62,6 +61,7 @@ function processData(allText) {
     console.log(streams);
     console.log(saves);
 
+    document.getElementById("Listeners").value = listeners;
 }
 (function($) {
 

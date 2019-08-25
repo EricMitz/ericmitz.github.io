@@ -64,6 +64,10 @@ function processData(allText) {
     document.getElementById("Listeners").innerHTML = listeners;
     document.getElementById("Streams").innerHTML = streams;
     document.getElementById("Saves").innerHTML = saves;
+    
+    var d = new Date();
+    document.getElementById("Date").innerHTML = d;
+    
 }
 
 function loadStats()

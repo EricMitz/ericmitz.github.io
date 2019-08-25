@@ -6,7 +6,7 @@
 $(document).ready(function() {
     $.ajax({
         type: "GET",
-        url: "recordings-since2015.csv",
+        url: "timelines.csv",
         dataType: "text",
         success: function(data) {processData(data);}
      });
@@ -23,50 +23,14 @@ function processData(allText) {
 
             var tarr = [];
             for (var j=0; j<headers.length; j++) {
-                //tarr.push(headers[j]+":"+data[j]);
-				tarr.push(data[j]);
+                tarr.push(headers[j]+":"+data[j]);
             }
             lines.push(tarr);
         }
     }
-	
-	 /*console.log(lines[0]);
-     console.log(lines[0][0]);
-	 console.log(lines[0][1]);
-	
-	 var streams = lines[0][1].substring(10);
-	 streams = parseInt(lines[0][1].substring(10));
-	 console.log(streams);
-	 
-     */
-    var streams = 0;
-    var listeners = 0;
-    var saves = 0;
-    
-    for (var i=0; i<lines.length; i++)
-    {
-        listeners += parseInt(lines[i][1]);
-    }
-    
-    for (var i=0; i<lines.length; i++)
-    {
-        streams += parseInt(lines[i][2]);
-    }
-    
-    for (var i=0; i<lines.length; i++)
-    {
-        saves += parseInt(lines[i][3]); 
-    }
-    console.log(listeners);
-    console.log(streams);
-    console.log(saves);
-
-    document.getElementById("Listeners").innerHTML = listeners;
-}
-
-function loadStats()
-{
-    console.log("worked");
+	sonsole.log(lines[0]);
+    console.log(lines[0][0]);
+	console.log(parseInt(lines[0][1]));
 }
 (function($) {
 

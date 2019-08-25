@@ -63,6 +63,11 @@ function processData(allText) {
 
     document.getElementById("Listeners").value = listeners;
 }
+
+function loadStats()
+{
+    console.log("worked");
+}
 (function($) {
 
 	var	$window = $(window),

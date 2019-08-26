@@ -2309,6 +2309,10 @@ input, select, textarea {
 		.icon.style5 {
 			color: #8cc9f0;
 		}
+        
+        .icon.itil {
+            width: 65%; height: 70%; top: 15%;
+        }
 
 		@media screen and (max-width: 1680px) {
 
@@ -2323,6 +2327,8 @@ input, select, textarea {
 			.icon.major:before {
 				font-size: 4.75rem;
 			}
+            
+            
 
 		}
 
@@ -2332,6 +2338,10 @@ input, select, textarea {
 				margin: 0 0 1.5em 0;
 				padding: 0.35em;
 			}
+            .icon.itil  {
+                
+                
+            }
 
 				.icon.major:before {
 					font-size: 3.5rem;

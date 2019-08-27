@@ -2311,15 +2311,15 @@ input, select, textarea {
 		}
         
         .itilspan{
-            display: inline-block; width: 100%; height:54%;    
+            display: inline-block; width: 70%; height:54%;    
         }
         .icon.itil {
-            width: 65%; height: 70%; top: 15%;
+            width: 85%; height: 60%; top: 20%;
         }
         
         .icon.ccna
         {
-            width: 45%; height: 70%; top: 12%
+            width: 65%; height: 65%; top: 18%
         }
 
 		@media screen and (max-width: 1680px) {
@@ -2330,13 +2330,47 @@ input, select, textarea {
 
 		}
 
+
 		@media screen and (max-width: 1280px) {
 
 			.icon.major:before {
 				font-size: 4.75rem;
 			}
+            .icon.itil  {
+                width: 80%; height: 50%; top: 25%;
+                
+            }
+            .itilspan   {
+            display: inline-block; width: 70%; height:55%;    
+        }
             
-            
+}
+            @media screen and (max-width: 1000px) {
+
+			.icon.major:before {
+				font-size: 4.75rem;
+			}
+            .icon.itil  {
+                width: 80%; height: 50%; top: 25%;
+                
+            }
+            .itilspan   {
+            display: inline-block; width: 49%; height:55%;    
+        }
+
+		}
+            @media screen and (max-width: 900px) {
+
+			.icon.major:before {
+				font-size: 4.75rem;
+			}
+            .icon.itil  {
+                width: 60%; height: 50%; top: 25%;
+                
+            }
+            .itilspan   {
+            display: inline-block; width: 70%; height:55%;    
+        }
 
 		}
 
@@ -2347,15 +2381,18 @@ input, select, textarea {
 				padding: 0.35em;
 			}
             .icon.itil  {
-                width: 70%; height: 80%; top: 10%;
+                width: 75%; height: 55%; top: 25%;
                 
+            }
+            .icon.ccna {
+                width: 75%; height: 55%; top: 25%;
             }
 
 				.icon.major:before {
 					font-size: 3.5rem;
 				}
             .itilspan   {
-            display: inline-block; width: 60%; height:70%;    
+            display: inline-block; width: 30%; height:70%;    
         }
 
 		}

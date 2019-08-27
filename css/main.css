@@ -2310,8 +2310,16 @@ input, select, textarea {
 			color: #8cc9f0;
 		}
         
+        .itilspan{
+            display: inline-block; width: 100%; height:54%;    
+        }
         .icon.itil {
             width: 65%; height: 70%; top: 15%;
+        }
+        
+        .icon.ccna
+        {
+            width: 45%; height: 70%; top: 12%
         }
 
 		@media screen and (max-width: 1680px) {
@@ -2339,13 +2347,16 @@ input, select, textarea {
 				padding: 0.35em;
 			}
             .icon.itil  {
-                
+                width: 70%; height: 80%; top: 10%;
                 
             }
 
 				.icon.major:before {
 					font-size: 3.5rem;
 				}
+            .itilspan   {
+            display: inline-block; width: 60%; height:70%;    
+        }
 
 		}
 

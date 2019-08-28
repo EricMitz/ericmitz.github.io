@@ -38,6 +38,11 @@ function processDataFollowers(allText) {
     }
 	
 	console.log(lines[0]);
+	var followers = parseInt(lines[0][3]);
+	
+	document.getElementById("Followers").innerHTML = followers;
+	
+	
 	
 }
 

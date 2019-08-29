@@ -2396,6 +2396,27 @@ input, select, textarea {
         }
 
 		}
+		
+		@media screen and (max-width: 700px) {
+			.icon.itil  {
+                width: 75%; height: 55%; top: 25%;
+			}
+			    .itilspan   {
+            display: inline-block; width: 30%; height:65%;    
+			}
+		}
+		
+		@media screen and (max-width: 600px) {
+			.icon.itil  {
+                width: 75%; height: 45%; top: 30%;
+			}
+			    .itilspan   {
+            display: inline-block; width: 40%; height:70%;    
+			}
+			.icon.ccna {
+                width: 55%; height: 35%; top: 25%;
+            }
+		}
 
 	.icon.major {
 		border-color: rgba(255, 255, 255, 0.35);

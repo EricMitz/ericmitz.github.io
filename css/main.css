@@ -3143,8 +3143,11 @@ input, select, textarea {
 			letter-spacing: -0.025em;
 		}
 
-		#header.alt {
+		/*#header.alt {
 			padding: 7em 5em 4em 5em ;
+		}*/
+		#header.alt {
+			padding: 3em 5em 2em 5em ;
 		}
 
 			#header.alt h1 {

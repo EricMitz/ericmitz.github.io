@@ -20,12 +20,15 @@
             "value": 5,
             "random":true,
             "anim":{
-                "enable": true,
+                "enable": false,
                 "speed":30
             }
         },
         "move":{
             "direction":"left"
+        },
+        "line_linked":{
+            "enable":false
         }
     },
     "interactivity":{

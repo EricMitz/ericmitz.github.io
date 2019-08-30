@@ -12,6 +12,9 @@
                 "width":1,
                 "color":"#ccc"
             }
+        },
+        "opacity":{
+            "value":0.5
         }
     }
 }

@@ -23,6 +23,9 @@
                 "enable": true,
                 "speed":30
             }
+        },
+        "move":{
+            "direction":"left"
         }
     },
     "interactivity":{

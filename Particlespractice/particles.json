@@ -18,7 +18,11 @@
         },
         "size":{
             "value": 5,
-            "random":true
+            "random":true,
+            "anim":{
+                "enable": true,
+                "speed":30
+            }
         }
     }
 }

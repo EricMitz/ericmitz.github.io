@@ -15,9 +15,6 @@
         },
         "opacity":{
             "value":0.5
-        },
-        "move":{
-        "straight":true
         }
     }
 }

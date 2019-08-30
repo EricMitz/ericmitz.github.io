@@ -25,7 +25,7 @@
             }
         },
         "move":{
-            "direction":"left"
+            "direction":"bottom"
         },
         "line_linked":{
             "enable":false

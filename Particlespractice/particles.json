@@ -24,9 +24,6 @@
                 "speed":30
             }
         },
-        "move":{
-            "direction":"bottom"
-        },
         "line_linked":{
             "enable":false
         }

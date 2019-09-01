@@ -6,7 +6,7 @@
 $(document).ready(function() {
     $.ajax({
         type: "GET",
-        url: "https://artistinsights-downloads.spotify.com/v1/artist/2nj7bsP3HdV0sVRcERVWw2/downloads/recordings.csv?time-filter=since2015",
+        url: "recordings-since2015.csv",
         dataType: "text",
         success: function(data) {processData(data);}
      });

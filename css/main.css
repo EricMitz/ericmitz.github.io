@@ -2313,6 +2313,9 @@ input, select, textarea {
         .itilspan{
             display: inline-block; width: 70%; height:54%;    
         }
+		.ccnaspan{
+            display: inline-block; width: 70%; height:54%;    
+        }
         .icon.itil {
             width: 85%; height: 60%; top: 20%;
         }
@@ -2342,7 +2345,10 @@ input, select, textarea {
             }
             .itilspan   {
             display: inline-block; width: 70%; height:55%;    
-        }
+			}
+			.ccnaspan   {
+            display: inline-block; width: 70%; height:55%;    
+			}
             
 }
             @media screen and (max-width: 1000px) {
@@ -2355,8 +2361,11 @@ input, select, textarea {
                 
             }
             .itilspan   {
-            display: inline-block; width: 49%; height:55%;    
-        }
+				display: inline-block; width: 49%; height:55%;    
+			}
+			.ccnaspan   {
+				display: inline-block; width: 49%; height:55%;    
+			}
 
 		}
             @media screen and (max-width: 900px) {
@@ -2369,8 +2378,11 @@ input, select, textarea {
                 
             }
             .itilspan   {
-            display: inline-block; width: 70%; height:55%;    
-        }
+				display: inline-block; width: 70%; height:55%;    
+			}
+			.ccnaspan   {
+				display: inline-block; width: 70%; height:55%;    
+			}
 
 		}
 
@@ -2392,8 +2404,11 @@ input, select, textarea {
 					font-size: 3.5rem;
 				}
             .itilspan   {
-            display: inline-block; width: 30%; height:70%;    
-        }
+				display: inline-block; width: 30%; height:70%;    
+			}
+			.ccnaspan   {
+				display: inline-block; width: 30%; height:70%;    
+			}
 
 		}
 		
@@ -2401,20 +2416,43 @@ input, select, textarea {
 			.icon.itil  {
                 width: 75%; height: 55%; top: 25%;
 			}
-			    .itilspan   {
-            display: inline-block; width: 30%; height:65%;    
+			.itilspan   {
+				display: inline-block; width: 30%; height:65%;    
+			}
+			.ccnaspan   {
+				display: inline-block; width: 30%; height:50%;    
 			}
 		}
+		
+
 		
 		@media screen and (max-width: 600px) {
 			.icon.itil  {
                 width: 75%; height: 45%; top: 30%;
 			}
-			    .itilspan   {
-            display: inline-block; width: 40%; height:70%;    
+			.itilspan   {
+				display: inline-block; width: 40%; height:60%;    
+			}
+			.ccnaspan   {
+				display: inline-block; width: 45%; height:45%;    
 			}
 			.icon.ccna {
-                width: 55%; height: 35%; top: 25%;
+                width: 75%; height: 55%; top: 25%;
+            }
+		}
+		
+		@media screen and (max-width: 550px) {
+			.icon.itil  {
+                width: 75%; height: 45%; top: 30%;
+			}
+			.itilspan   {
+				display: inline-block; width: 40%; height:50%;    
+			}
+			.ccnaspan   {
+				display: inline-block; width: 45%; height:45%;    
+			}
+			.icon.ccna {
+                width: 75%; height: 55%; top: 25%;
             }
 		}
 

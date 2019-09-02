@@ -28,7 +28,7 @@
             "enable":false
         },
         "move":{
-            "speed":2
+            "speed":0.5
         }
     },
     "interactivity":{
